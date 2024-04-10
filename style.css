@@ -34,10 +34,30 @@ ul {
     padding-left: 30px;
 }
 
-.menuu{
+div {
+    font-size: 20px;
+    color: white;
+}
+.nav div {
     display: none;
+    width: 200px;
+    
+}
+.nav ul:hover div{
+    display: inline-block;
+    
 }
 
-.nav:hover+.menuu{
-    display: block;
+.nav li:hover {
+    background-color: rgb(71, 68, 68);
 }
+
+
+.nav li:hover img{
+    background-color: rgb(71, 68, 68);
+    
+}
+
+.nav li:hover div{
+    background-color: rgb(71, 68, 68);
+    
